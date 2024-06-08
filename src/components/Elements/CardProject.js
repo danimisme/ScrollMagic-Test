@@ -32,7 +32,7 @@ export default function CardProject({ title, description, index, id }) {
       id={id}
       className={`${bg} w-ful group cursor-pointer mb-10 hidden-left`}
     >
-      <div className="text-white p-16 border-4 border-white group-hover:translate-x-4 transition group-hover:-translate-y-4 duration-300">
+      <div className="text-white p-14 border-4 border-white group-hover:translate-x-4 transition group-hover:-translate-y-4 duration-300">
         <h1 className="text-5xl font-bold mb-10">{title}</h1>
         <p className="text-3xl">{description}</p>
       </div>

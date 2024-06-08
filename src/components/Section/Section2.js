@@ -4,7 +4,7 @@ import CardProject from "../Elements/CardProject";
 export default function Section2() {
   return (
     <div className="bg-[#3e88ff] ">
-      <div className="container max-w-7xl mx-auto px-10 py-32">
+      <div className="container max-w-6xl mx-auto px-10 py-32">
         <div className="text-white mb-20">
           <h1 className="text-6xl font-bold mb-10">Our porjects</h1>
           <p className="text-4xl max-w-6xl leading-[150%]">
