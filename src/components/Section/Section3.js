@@ -7,8 +7,8 @@ export default function Section3() {
     <div className="bg-[#fcf944]">
       <div className="container max-w-6xl mx-auto px-10 py-32">
         <div className="mb-20">
-          <h1 className="text-6xl font-bold mb-10">We Want to help</h1>
-          <p className="text-4xl max-w-6xl leading-[150%]">
+          <h1 className="text-5xl font-bold mb-10">We Want to help</h1>
+          <p className="text-3xl max-w-6xl leading-[150%]">
             homeless packs, volunteers, guardians, overstayers, shelters and
             other organisations
           </p>
