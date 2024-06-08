@@ -47,29 +47,29 @@ export default function Section1() {
 
   return (
     <div className="min-h-screen bg-[#fcf944] flex flex-col justify-center relative">
-      <Link href="/" className="fixed top-8 right-8 bg-white group ">
-        <div className="px-2 py-2 border-4 border-black group-hover:translate-x-2 group-hover:-translate-y-2 transition duration-300">
-          <p className="text-3xl">donate</p>
+      <Link href="/" className="fixed top-7 right-7 bg-white group ">
+        <div className="px-3 py-2 border-4 border-black group-hover:translate-x-2 group-hover:-translate-y-2 transition duration-300">
+          <p className="text-2xl">donate</p>
         </div>
       </Link>
-      <div className="flex gap-5 items-center max-w-xl mx-auto ">
+      <div className="flex gap-3 items-center max-w-xl mx-auto ">
         <div
           id="image-header"
-          className="hidden-up overflow-hidden relative  mt-7 "
+          className="hidden-up overflow-hidden relative  mt-7 p-5"
         >
           <ImageSlider />
         </div>
         <div id="title-heading" className=" hidden-right">
-          <h1 className="text-6xl font-bold leading-[110%]">
+          <h1 className="text-[55px] font-bold leading-[110%]">
             Innovative <br />
             Solution <br /> for <br /> Animals
           </h1>
         </div>
       </div>
       <div id="second-heading" className="hidden-bottom ">
-        <h2 className="mt-10 text-4xl text-center">charity organization</h2>
+        <h2 className="text-4xl text-center">charity organization</h2>
       </div>
-      <div className="flex justify-center gap-5 mt-5">
+      <div className="flex justify-center gap-5 mt-4">
         {socialsMedia.map((social, index) => (
           <SocmedButton
             key={index}

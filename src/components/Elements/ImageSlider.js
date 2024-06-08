@@ -13,7 +13,8 @@ export default function ImageSlider() {
     vertical: true,
     verticalSwiping: true,
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 1500,
+    arrows: false,
   };
   return (
     <Slider {...settings} className="-my-7 ">

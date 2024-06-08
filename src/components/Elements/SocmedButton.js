@@ -24,7 +24,7 @@ export default function SocmedButton({ icon, link, socmedId, index }) {
 
   return (
     <Link href={link}>
-      <div id={socmedId} className="w-14 group hidden-bottom">
+      <div id={socmedId} className="w-12 group hidden-bottom">
         <img
           src={icon}
           alt=""
