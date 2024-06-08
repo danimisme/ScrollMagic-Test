@@ -55,3 +55,17 @@
   opacity: 1;
   transform: translateX(0);
 }
+
+.carousel-container {
+  width: 100%;
+  height: 100%; /* Atur tinggi penuh pada kontainer */
+  display: flex;
+  align-items: center; /* Pusatkan vertikal */
+  justify-content: center; /* Pusatkan horizontal */
+}
+
+.slide img {
+  width: 100%;
+  height: 100%; /* Atur gambar agar memenuhi slide */
+  object-fit: cover; /* Skala gambar dengan baik */
+}

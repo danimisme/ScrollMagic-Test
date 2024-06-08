@@ -4,6 +4,7 @@ import ScrollMagic from "scrollmagic";
 import { socialsMedia } from "@/data/socialsMedia";
 import SocmedButton from "../Elements/SocmedButton";
 import Link from "next/link";
+import ImageSlider from "../Elements/ImageSlider";
 
 export default function Section1() {
   useEffect(() => {
@@ -51,10 +52,12 @@ export default function Section1() {
           <p className="text-3xl">donate</p>
         </div>
       </Link>
-      <div className="flex gap-5 items-center max-w-xl mx-auto">
-        <div id="image-header" className="hidden-up">
-          <img src="/logo/logo-cat.svg" alt="cat" className="w-48 m-8 " />
-          {/* <img src="/logo/logo-dog.svg" alt="cat" className="w-48 m-8 " /> */}
+      <div className="flex gap-5 items-center max-w-xl mx-auto ">
+        <div
+          id="image-header"
+          className="hidden-up overflow-hidden relative  mt-7 "
+        >
+          <ImageSlider />
         </div>
         <div id="title-heading" className=" hidden-right">
           <h1 className="text-6xl font-bold leading-[110%]">
