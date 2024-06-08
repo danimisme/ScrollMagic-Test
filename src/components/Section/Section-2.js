@@ -19,6 +19,7 @@ export default function Section2() {
               title={project.title}
               description={project.description}
               index={index + 1}
+              id={`card-project-${index}`}
             />
           ))}
         </div>
