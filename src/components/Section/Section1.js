@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import ScrollMagic from "scrollmagic";
 import { socialsMedia } from "@/data/socialsMedia";
 import SocmedButton from "../Elements/SocmedButton";
+import Link from "next/link";
 
 export default function Section1() {
   useEffect(() => {
@@ -14,7 +15,7 @@ export default function Section1() {
     new ScrollMagic.Scene({
       triggerElement: title.current,
       triggerHook: "onEnter",
-      duration: "50%",
+      duration: "60%",
       offset: "-150px",
     })
       .setClassToggle(title, "show")
@@ -23,7 +24,7 @@ export default function Section1() {
     new ScrollMagic.Scene({
       triggerElement: second_heading.current,
       triggerHook: "onEnter",
-      duration: "50%",
+      duration: "60%",
       offset: "-150px",
     })
       .setClassToggle(second_heading, "show")
@@ -32,7 +33,7 @@ export default function Section1() {
     new ScrollMagic.Scene({
       triggerElement: image.current,
       triggerHook: "onEnter",
-      duration: "50%",
+      duration: "60%",
       offset: "-150px",
     })
       .setClassToggle(image, "show")
@@ -44,7 +45,12 @@ export default function Section1() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#fcf944] flex flex-col justify-center">
+    <div className="min-h-screen bg-[#fcf944] flex flex-col justify-center relative">
+      <Link href="/" className="fixed top-8 right-8 bg-white group ">
+        <div className="px-2 py-2 border-4 border-black group-hover:translate-x-2 group-hover:-translate-y-2 transition duration-300">
+          <p className="text-3xl">donate</p>
+        </div>
+      </Link>
       <div className="flex gap-5 items-center max-w-xl mx-auto">
         <div id="image-header" className="hidden-up">
           <img src="/logo/logo-cat.svg" alt="cat" className="w-48 m-8 " />
