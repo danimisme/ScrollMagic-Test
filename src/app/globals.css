@@ -2,6 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+.bounce-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  animation: bounce 2s infinite;
+  transition: all 0.7s ease-in-out;
+}
+
+@keyframes bounce {
+  100%,
+  0% {
+    transform: translateY(30px);
+    width: 100%;
+  }
+  50% {
+    transform: translateY(0);
+    transform: translateX(0);
+
+    width: 10%;
+  }
+}
+
 .hidden-up {
   opacity: 0;
   transform: translateY(-200px);

@@ -77,6 +77,15 @@ export default function Section1() {
           />
         ))}
       </div>
+      <div className="flex justify-center mx-auto relative w-8 h-20 ">
+        <div className=" bounce-button ">
+          <img
+            src="/logo/chevron-down-icon.svg"
+            alt="down"
+            className="w-6 object-contain"
+          />
+        </div>
+      </div>
     </div>
   );
 }
