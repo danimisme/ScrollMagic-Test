@@ -1,4 +1,4 @@
-import Section2 from "@/components/Section/Section-2";
+import Section2 from "@/components/Section/Section2";
 import Section1 from "@/components/Section/Section1";
 import Image from "next/image";
 
