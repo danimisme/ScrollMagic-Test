@@ -1,6 +1,7 @@
 import { sheltersData } from "@/data/sheltersData";
 import ShelterButton from "../Elements/ShelterButton";
 import Link from "next/link";
+import HelpButton from "../Elements/HelpButton";
 export default function Section3() {
   return (
     <div className="bg-[#fcf944]">
@@ -18,16 +19,7 @@ export default function Section3() {
           ))}
         </div>
         <div className="flex">
-          <Link href="/" className="bg-[#ff97d0] group ">
-            <div className="flex gap-5 justify-center items-center h-full px-10 py-5 text-center border-4 border-black">
-              <p className="text-2xl font-bold">apply for help</p>
-              <img
-                src="/logo/arrow.png"
-                alt="arrow"
-                className="h-8 rotate-180 group-hover:translate-x-4 transition duration-300"
-              />
-            </div>
-          </Link>
+          <HelpButton />
         </div>
       </div>
     </div>
