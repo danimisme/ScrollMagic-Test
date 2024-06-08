@@ -5,7 +5,7 @@ import HelpButton from "../Elements/HelpButton";
 export default function Section3() {
   return (
     <div className="bg-[#fcf944]">
-      <div className="container max-w-7xl mx-auto px-10 py-32">
+      <div className="container max-w-6xl mx-auto px-10 py-32">
         <div className="mb-20">
           <h1 className="text-6xl font-bold mb-10">We Want to help</h1>
           <p className="text-4xl max-w-6xl leading-[150%]">
